@@ -13,7 +13,7 @@ function App() {
         dsgadsgafdsgfdag
         
           <Routes >
-            <Route path={"/zairzest/#"} element={<HomeReg />} />
+            <Route path={"/"} element={<HomeReg />} />
             <Route path={"/signin"} element={<Signin />} />
             <Route path={"/signup"} element={<Signup />} />
             <Route path={"/aboutus"} element={<Aboutus />} />
