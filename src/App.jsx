@@ -11,7 +11,7 @@ function App() {
     <div>
       <div>
         dsgadsgafdsgfdag
-        
+        <HomeReg/>
           <Routes >
             <Route path={"/zairzest"} element={<HomeReg />} />
             <Route path={"/signin"} element={<Signin />} />
