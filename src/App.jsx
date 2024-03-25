@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <div>
-        dsgadsgafdsgfdag
+        
         
           <Routes >
             <Route path={"/"} element={<HomeReg />} />
