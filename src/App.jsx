@@ -11,7 +11,7 @@ function App() {
     <div>
       <div>
         dsgadsgafdsgfdag
-        <Router>
+        
           <Routes >
             <Route path={"/zairzest"} element={<HomeReg />} />
             <Route path={"/signin"} element={<Signin />} />
@@ -20,7 +20,7 @@ function App() {
             <Route path={"/techevents"} element={<Techevents />} />
             <Route path={"/funevents"} element={<Funevents />} />
           </Routes>
-        </Router>
+        
       </div>
     </div>
   )
