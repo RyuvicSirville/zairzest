@@ -5,7 +5,7 @@ import frame3 from '/images/frame3.png'
 export function Events() {
     const navigate = useNavigate()
     return (
-        <div className="gap=5">
+        <div >
             <div class="     ">
                 <div className="place-items-center">
                     <h1 className="text-7xl text-gray-800   text-center">
@@ -13,11 +13,12 @@ export function Events() {
                     </h1>
                 </div>
                 <br></br>
-                <div className="place-items-center">
+                <div className="place-items-center ">
                     <h1 className="text-2xl text-gray-800   text-center">
                         Everything has been made simple for you to scroll around and get the most out of the options available.
                     </h1>
                 </div>
+                <br></br>
                 <br></br>
             </div>
 
