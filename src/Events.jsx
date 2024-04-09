@@ -5,7 +5,7 @@ import frame3 from '/images/frame3.png'
 export function Events() {
     const navigate = useNavigate()
     return (
-        <div >
+        <div className="gap=5">
             <div class="     ">
                 <div className="place-items-center">
                     <h1 className="text-7xl text-gray-800   text-center">
