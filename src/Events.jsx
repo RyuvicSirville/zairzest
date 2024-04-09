@@ -21,7 +21,7 @@ export function Events() {
                 <br></br>
             </div>
 
-            <div class="max-w-[1500px] mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-6 px-[20px]">
+            <div class="max-w-[1500px] mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-10 px-[20px]">
                 <button class="justify-self-center" onClick={() => { navigate("/techevents") }}><img class="hover:scale-125 place-self-center" src={frame1}></img></button>
                 <button class="justify-self-center" onClick={() => { navigate("/funevents") }}><img class="hover:scale-125 place-self-center" src={frame2}></img></button>
                 <button class="justify-self-center" onClick={() => { navigate("/aboutus") }}><img class="hover:scale-125 place-self-center" src={frame3}></img></button>
